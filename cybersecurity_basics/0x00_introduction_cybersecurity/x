@@ -1,0 +1,23 @@
+root           1  0.0  0.4  24552 15168 ?        Ss   02:33   0:02 /sbin/init splash
+root         384  0.0  0.5  50684 17940 ?        Ss   02:33   0:00 /usr/lib/systemd/systemd-journald
+root         403  0.0  0.0 232652  2024 ?        Ssl  02:33   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         407  0.0  0.2  16364  6684 ?        Ss   02:33   0:00 /usr/lib/systemd/systemd-userdbd
+root         408  0.0  0.4  39688 13736 ?        Ss   02:33   0:00 /usr/lib/systemd/systemd-udevd
+root         537  0.0  0.2   8592  6580 ?        Ss   02:33   0:00 /usr/sbin/haveged --Foreground --verbose=1
+root         553  0.3  0.3 114036 10328 ?        Ssl  02:33   0:25 /usr/bin/vmtoolsd
+root         556  0.0  0.2 309304  7768 ?        Ssl  02:33   0:00 /usr/libexec/accounts-daemon
+root         561  0.0  0.2  18396  9132 ?        Ss   02:33   0:00 /usr/lib/systemd/systemd-logind
+root         641  0.0  0.6 336792 20120 ?        Ssl  02:33   0:00 /usr/sbin/NetworkManager --no-daemon
+root         714  0.0  0.4 391604 13024 ?        Ssl  02:33   0:00 /usr/sbin/ModemManager
+root         715  0.0  0.0   7080  3052 ?        Ss   02:33   0:00 /usr/sbin/cron -f
+root         945  0.0  0.2 307516  7712 ?        SLsl 02:33   0:00 /usr/sbin/lightdm
+root         958  0.0  0.0   8420  2892 tty1     Ss+  02:33   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+root         959  0.9  5.0 447324 162464 tty7    Ssl+ 02:33   1:10 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1097  0.0  0.3 172772 10348 ?        Sl   02:33   0:00 lightdm --session-child 13 24
+root        1378  0.0  0.3 319204 11312 ?        Ssl  02:34   0:02 /usr/libexec/upowerd
+root        1645  0.0  0.4 478348 14244 ?        Ssl  02:34   0:00 /usr/libexec/udisks2/udisksd
+root        1972  0.0  0.0   2796  2036 ?        Ss   02:34   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+root       59192  0.0  0.2  16808  6580 ?        S    04:30   0:00 systemd-userwork: waiting...
+root       59193  0.0  0.2  16808  6588 ?        S    04:30   0:00 systemd-userwork: waiting...
+root       59226  0.0  0.2  16808  6812 ?        S    04:30   0:00 systemd-userwork: waiting...
+kali       59701  0.0  0.0   6748  2448 pts/2    S+   04:31   0:00 grep --color=auto root
