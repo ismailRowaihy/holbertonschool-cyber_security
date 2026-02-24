@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo last -n 5 -a
+sudo last --time-format full -n 5 -a
